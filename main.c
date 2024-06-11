@@ -41,7 +41,7 @@ void AdicionarPalavra(const char *palavra, int posicao) {
 }
 
 void ArmazenarPalavras(const char linha[1000], int posicaoBase) {
-    const char *delimitadores = " ,.?!\n";
+    const char *delimitadores = " ,.?:!\n";
     char *copiaLinha = strdup(linha);
     char *palavra = strtok(copiaLinha, delimitadores);
 

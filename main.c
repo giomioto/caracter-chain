@@ -1,3 +1,11 @@
+/*-----------------------------------------------------
+TRABALHO 3 ICSF20-S73 ESTRUTURA DE DADOS
+ESTUDANTE: GIOVANNI MIOTO
+RA: 2603454
+------------------------------------------------------*/
+
+
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>

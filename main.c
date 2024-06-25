@@ -188,12 +188,12 @@ void ProcurarPalavra(char *palavra, char *texto, int *posicaoBase)
                 printf("Ocorrências: %d \n", palavras[meio].quantidade);
             }
             printf("Palavra encontrada na posição: %d\n", palavras[meio].posicoes[*posicaoBase]);
+            imprimirPedaço(texto, palavras[meio].posicoes[*posicaoBase]);
+            (*posicaoBase)++;
             if (*posicaoBase == palavras[meio].quantidade)
             {
                 *posicaoBase = 0;
             }
-            imprimirPedaço(texto, palavras[meio].posicoes[*posicaoBase]);
-            (*posicaoBase)++;
             return;
         }
         else if (strcmp(palavras[meio].palavra, palavra) < 0)
